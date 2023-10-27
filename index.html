@@ -11,8 +11,12 @@
 
             h2{
                 background-color: honeydew;
+                display:block;
             }
-            
+        
+            h4{width: 600px;
+                height: 20px;}
+
             #name{
                 width: 400px;
                 height: 45px;
@@ -30,17 +34,8 @@
                 width: 300px;   
                 height: 175px;             
                 text-align: right;
-                position:relative;
-                top: -100px;
-                left: 500px;
                 font-size: larger;
-                margin-bottom: -100px;
-
-            h4{width: 600px;
-                height: 20px;}
-        
             }
-
           
         </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,9 +43,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet">
     </Head>
         <Body>
-          <div id="name"><h1>Andrew Ziadie</h1></div> 
-           <div id="title"<h2>Business Intelligence Analyst</h2></div>
-            <div id="image"><img src="./Profile.png"></div>
+            <div class="top-header">
+                <div class="left-header">
+                    <div id="name"><h1>Andrew Ziadie</h1></div> 
+                    <div id="title"<h2>Business Intelligence Analyst</h2></div>
+                    <div id="image"><img src="./Profile.png"></div>
+                </div>
             <div id="info"><h5>
                 <p> Ziadie.Andrew@gmail.com</p>
                 <p>1901 N Grant St. 921 <br>Denver, CO, 80203</p>
@@ -58,17 +56,21 @@
                 <a  href="https://www.linkedin.com/in/andrew-ziadie-a7255b211/" >LinkedIn</a>
                 <a href="https://github.com/VinciDAZ">GitHub</a></h5>
             </div>
-          
+         </div>
             <hr/>
-            <div><h2>Professional Summary</h2></div>
+            <h2>Professional Summary</h2>
             <p class="center-align">Proven talent for aligning business strategy and objectives with established data analysis and quality management paradigms to achieve 
             maximum operational outcomes directly aligned with business goals. Results-focused thought leader who is recognized for generating data-driven insights to support continuous improvement, optimizing operations and production results, and developing and managing comprehensive 
             databases. Exceptionally dedicated professional with keen interpersonal, communication, and organizational skills, as well as strong educational 
             credentials, including a Bachelor of Science in Biology.</p>
             <hr/>
-            <div><h2>Professional Experience</h2></div>
-            <h4>Veterans Management Services Inc., Sterling, VA</h4> <div class="dates">Jan 2022 to Present</div>
-            <h3>Senior Program Analyst</h3>
+            <h2>Professional Experience</h2>
+
+            <div class = "job-header">
+                <div class ="job-company">Veterans Management Services Inc., Sterling, VA </div>
+                <div class = "job-date">Jan 2022 to Present</div> </div>
+                <div class = "job-title">Senior Program Analyst</div>
+           
             <ul>
                 <li> Spearheaded the development and implementation of innovative data reporting strategies, resulting in optimizing report creating 
                     processes and improved data accuracy</li>
@@ -82,8 +84,12 @@
                     <li> Responsible for creating and designing documentation for the entire process of creating products to ensure effective knowledge 
                         transfer and sustainable data management.</li>
             </ul>
-            <h4>Buddy Boy Brands, Denver, CO</h4> <div class="dates">Jan 2020 to  Jan 2022</div>
-            <h3>Business Intelligence Analyst</h3>
+
+            <div class = "job-header">
+                <div class ="job-company">Buddy Boy Brands, Denver, CO </div>
+                <div class = "job-date">Jan 2020 to  Jan 2022</div></div>
+                <div class = "job-title">Business Intelligence Analyst</div>
+    
             <ul>
                 <li> Chart the successful development and implementation of comprehensive databases for Human Resources, Operations, Sales, Supply
                     Chain, Finance, and other departments; utilize QuickBooks, Isolved, and Flowhub to pull data and PowerApps to identify other data 
@@ -94,8 +100,10 @@
                 <li>Manages large-scale data projects, including establishing project teams, setting timelines, identifying dependencies, and managing 
                     project scope.</li>
             </ul>
-        <h4>MJardin, Denver CO</h4> <div class="dates">Oct 2017 to Jan 2022</div>
-        <h3>Operations Auditor</h3>
+            <div class = "job-header">
+                <div class ="job-company">MJardin, Denver CO</div>
+                <div class = "job-date">Oct 2017 to Jan 2022</div></div>
+                <div class = "job-title">Operations Auditor</div>
         <ul>
             <li>Maintained responsibility for performing audits to identify issues with growth facilities; provided recommendations and solutions to 
                 improve compliance with standards and best practices.</li>

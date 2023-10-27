@@ -1,9 +1,28 @@
 h1{color:black;}
 
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.job-header{display: flex;
+    justify-content: space-between;
+}
+
+.job-company{
+    font-weight: bold;
+    font-size: large;
+    width: 500px;}
+
+.job-date{
+font-weight: bold;}
+
+.job-title{font-weight: bold;
+}
+
  .right-align{text-align: right;}
  .center-align{text-align: center;}
  .bold{font-weight: bold;}
  .italic{font-style: italic;}
- .dates{text-align: right;
-    margin-top: -50px;
-}
+
